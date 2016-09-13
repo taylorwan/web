@@ -214,10 +214,6 @@ input.button.signup {
     border: 2px solid #FAFAFA;
     border-radius: 2px;
     color: #FAFAFA;
-    /* Hover */
-    cursor: pointer;
-    text-transform: lowercase;
-    transition: 0.3s ease;
 }
 input.button.signup:hover {
     color: #001f3f;
@@ -230,16 +226,12 @@ input.button.signup:hover {
     margin: -2px auto 0px auto;
 }
 
-.signup-container {
+.signup-button {
+    display: block;
+    background: #7FDBFF;
     margin: 20px 0 20px;
+    padding: 10px;
     text-align: center;
-}
-
-.signup-button-container {
-	margin: 20px 0 20px;
-	padding: 10px;
-	background-color: #7FDBFF;
-	text-align: center;
 }
 
 /* RESPONSIVENESS */
